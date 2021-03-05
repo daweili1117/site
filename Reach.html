@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>About Me</title>
+    <meta charset="UTF-8">
+    <link href="mycss.css" rel="stylesheet" type="text/css" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1>Ann L. Fruhling, PhD </h1>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <div class="margin">
+            <a href="index.html">Home</a>
+            <a href="Courses.html">Teaching</a>
+            <a href="Publication.html">Publications</a>
+            <a href="Projects.html">Research Projects</a>
+            <a href="grants.html">Grants & Contracts</a>
+            <a href="Awards.html">Awards</a>
+            <a href="About.html">About</a>
+            <a href="Statpack.html">STATPack&trade;</a>
+            <a href="Reach.html">REaCH</a>
+            <a href="Posters.html">Student Research Posters</a>
+            <!-- <a
+                href="https://www.unomaha.edu/college-of-information-science-and-technology/engagement/centers/consortium-for-public-health-informatics/index.php"><abbr
+                    title="Consortium for Public Health Informatics"><i>CPHi</i></abbr></a> -->
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <div class="row">
+        <div class="rightcolumn">
+            <div class="card">
+                <h2 style="text-align: center;">REaCH System</h2>
+                <h3 align="Left"><a href="#problem" style="text-decoration:none; color:#d71920; font-size:15px">Problem/Challenges</a></h3>
+                <h3 align="Left"><a href="#Purpose" style="text-decoration:none; color:#d71920; font-size:15px">Purpose of REaCH System</a></h3>
+                <h3 align="Left"><a href="#SRRSO" style="text-decoration:none; color:#d71920; font-size:15px">Selected REaCH Research Studies and Outcomes</a></h3>
+                <h3 align="Left"><a href="#Approach" style="text-decoration:none; color:#d71920; font-size:15px">Development Approach</a></h3>
+                <h3 align="Left"><a href="#Funding" style="text-decoration:none; color:#d71920; font-size:15px">Department of Transportation & Funding</a></h3>
+                <h3 align="Left"><a href="https://matc.unl.edu/assets/documents/matcfinal/Fruhling_Real-TimeEmergencyCommunicationSystemforHazMatIncidents(REaCH)-PhaseI.pdf" style="text-decoration:none; color:#d71920; font-size:15px">Report for Real-Time Emergency Communication System
+                for HAZMAT Incidents (REaCH)</a></h3>
+            </div>
+                <div id="problem" class="card">
+                    <h2>Problems/Challenges</h2>
+                
+                    <p class="big" align="justify">
+                    <p>This research project addresses two problems/challenges related to the health of transportation workers and the public in the
+                    presence of hazardous materials. They are:</p>
+                        <p>1. Real-time Health information on the exposure of hazardous materials to transportation workers and first responders during
+                        hazardous material incidents is lacking.</p>
+                        <p>2. Currently, the ability to identify and communicate information regarding hazardous material incidents in real time to
+                        all stakeholders is limited.</p>
+                        </p>
+                </div>
+                    <div id="Purpose" class="card">
+                        <h2>Purpose of REaCH System</h2>
+                    
+                    <p class="big" align="justify">
+                        <p>The purpose of this project REaCH system is to develop a prototype for a statewide technology system that includes wearable sensor devices, mobile apps and a real-time
+                        communication network for first responders that can be used during a hazardous materials incident.</p>
+                        <p>The new system is called REaCH - Real-Time Emergency Communication System for HazMat Incidents. The REaCH system
+                        includes real-time health monitoring of transportation workers and first responders through wearable devices that
+                        capture individual health parameters and exposure to hazardous materials.</p>
+                        <p>Individual health data and hazmat exposure data will be transmitted to a dashboard that integrates all of the
+                        information for the incident commander to monitor. The incident commander can evaluate if individuals need to be removed
+                        from the scene for example, if his or her health status is being compromised, with the goal of minimizing any
+                        health-related consequences.</p>
+
+      
+                    </p>
+
+                </div>
+
+                <div id="SRRSO"class="card">
+                    <h2>Selected REaCH Research Studies and Outcomes</h2>
+                    <p class="big" align="justify">
+                        <ul>
+                            <li>OFD and Rural Fire Fighter Needs Assessments</li>
+                            <li>First Responders Wearable Technology Survey</li>
+                            <li>Usability Study on the User Interface Design: Text versus ICONS</li>
+                            <li>Machine Learning techniques to compare and evaluate algorithms and open source implementation to monitor changes in
+                            heart rate using sensor data</li>
+                            <li>Wearable Sensor Reliability, Accuracy, Durability, Performance</li>
+                            <li>User cognitive load while interacting with the dashboard</li>
+                            <li>New Invention Notification through UNeMED</li>
+                        </ul>
+                    </p>
+                </div>
+                
+                <div id="Approach" class="card">
+                    <h2>Development Approach</h2>
+                    <p class="big" align="justify">
+
+                        <h3>
+                            Research Approach
+                        </h3>
+                        <p>The team employed several research approaches and methods, including requirements gathering and data analysis to
+                        understand the needs of the stakeholders in the HAZMAT response field. We conducted interviews and a focus group
+                        workshop, and surveyed biosensor, HAZMAT, and first responder health concerns literature. We met with subject matter
+                        experts (SMES) in Omaha and around the world at the FDIC International conference in Detroit.</p>
+                        <p>
+                            Beging with defining the REaCH system requirement, we move from conceptual technology ideas and
+                            visions to building, testing, and evaluating working prototypes in the field with end users. We are following best
+                            practices in an iterative development approach known as Agile Development. We are employing the IT Industry Standards Unified Modeling Techniques as part of our analysis
+                            efforts.
+                        </p>
+                        <h3>REaCH Research Team</h3>
+                        <ul>
+                            <li><b>Faculty:</b> Dr. Ann Fruhling, PI, Dr. Aaron Yoder, Co-PI, Dr. Sharon Medcalf, Co-PI, Dr. Chandran Achutan, Co-I, Dr. Dario Ghersi, Co-I, FF Stanley Shearer, OFD</li>
+                            <li>Current Graduate Students: Krishna Kumari, Dawei Li, Ru Ng, Troy Suwondo, Kaitlyn Baysa, Jason Ellicott</li>
+                            <li>Past Graduate Students: Jackson Urrutia, Vikas Sahu, Chaitra Venkatesan, Hitesh Kumar, Naveena Akula, Anusha Manda, Jacob Grothe, Suzanne Fendrick</li>
+                            <li>Technical Consultants: Greg Hoff, John Roger</li>
+                        </ul>
+                        
+
+                        <!-- Faculty:
+                        Dr. Ann Fruhling, PI<br />
+                        Dr. Aaron Yoder, Co-PI<br />
+                        Dr. Sharon Medcalf, Co-PI<br />
+                        Dr. Chandran Achutan, Co-I<br />
+                        Dr. Dario Ghersi, Co-I<br />
+                        FF Stanley Shearer, OFD<br /> -->
+                        <!-- Current Graduate Students: Krishna Kumari, Dawei Li, Ru Ng, Troy Suwondo, Kaitlyn Baysa, Jason Ellicott<br />
+                        Past Graduate Students: Jackson Urrutia, Vikas Sahu, Chaitra Venkatesan, Hitesh Kumar, Naveena Akula, Anusha
+                        Manda,
+                        Jacob Grothe, Suzanne Fendrick<br />
+                        Technical Consultants: Greg Hoff, John Roger<br /> -->
+                    </p>
+                </div>
+
+            
+                
+                <div id="Funding"class="card">
+                    <h2>Department of Transportation & Funding</h2>
+                        <p class="big" align="justify">
+                                Mid-America Transportation Center - matc.unl.edu<br />
+                                US Department of Transportation<br />
+                                DOT Sponsor Award Number 25-1121-0005-110<br />
+                                MATC: 69A3551747107<br />
+                                Project Award: 2016 – 2021, $300K<br />
+                                </p>
+                        
+                </div>
+
+
+ 
+        </div>
+
+        <div class="leftcolumn">
+            <div class="card">
+                <h3>Contact</h3>
+                <h4>Ann L. Fruhling, PhD, MBA</h4>
+                <p class="big">
+                    Professor, School of Interdisciplinary Informatics (Biomedical Informatics and IT Innovation)<br />
+                    Charles W. and Margre H. Durham Distinguished Professor of Information Science and Technology<br />
+                    Founding Director,
+                    <a href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/index.php"
+                        style="color:#606060;">School of Interdisciplinary Informatics (2010-2020)</a><br />
+                    <a href="http://www.ist.unomaha.edu/" style="color:#606060;">College of Information Science and
+                        Technology</a><br />
+                    <a href="http://www.unomaha.edu" style="color:#606060;">University of Nebraska at Omaha</a><br />
+                    <br />
+                    <a href="https://pki.nebraska.edu/new/pages/contact/maps-directions-parking/"
+                        style="color:#606060;">PKI
+                        280A</a><br />
+                    <a href="tel:4025544968" style="text-decoration:none; color:#d71920;">(402)554-4968</a><br />
+                    <a href="mailto:afruhling@unomaha.edu" target="_top"
+                        style="text-decoration:none; color:#d71920;">afruhling@unomaha.edu</a></br></br>
+                    <a href="https://www.unomaha.edu"><img src="images/logo1.png" style="max-width:100%"></a>
+                </p>
+            </div>
+            <div class="card">
+                <p><i>"Don't dream your life, live your dreams."</i></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <script type="text/JavaScript">
+			document.write("Copyright &copy; 2009-"+new Date().getFullYear());
+		</script>
+    </div>
+
+</body>
+
+</html>
